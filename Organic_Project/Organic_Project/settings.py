@@ -142,6 +142,21 @@ DATABASES = {
 }
 
 
+# aws database
+
+# DATABASES = {
+#     'default': {
+# # <<<<<<< HEAD
+#         'ENGINE': 'django.db.backends.postgresql',
+#         # 'NAME': "organicstore",
+#         'PORT': "5432",
+#         'USER': "postgres",
+#         'PASSWORD': "basil12345",
+#         'HOST': "database-1.cb0gum06qmyq.ap-south-1.rds.amazonaws.com",
+# # =======
+
+# }
+
 # email serbice 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

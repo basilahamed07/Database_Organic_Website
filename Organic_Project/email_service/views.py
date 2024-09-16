@@ -38,8 +38,8 @@ def send_email(request):
         email = EmailMessage(
             subject,
             body,
-            'your-email@example.com',  # Replace with your email address
-            [recipient_email]  # Use the recipient's email address from the request
+            'your-email@example.com',  
+            [recipient_email]  
         )
         
         with default_storage.open(pdf_file_path, 'rb') as pdf_file:
